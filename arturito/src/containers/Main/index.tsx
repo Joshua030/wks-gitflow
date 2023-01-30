@@ -37,6 +37,10 @@ const MainContainer = () => {
         <Route path={paths.people.href}>
         <People />
         </Route>
+
+        <Route path={paths.home.href}>
+          <Home />
+        </Route>
       </Switch>
     </div>
   );
